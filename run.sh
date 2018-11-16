@@ -1,6 +1,6 @@
 cd ~
 
-yum install git
+yum install -y git
 ssh-keygen
 
 cat ~/.ssh/id_rsa.pub
