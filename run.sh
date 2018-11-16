@@ -6,8 +6,8 @@ if [[ ! -f ~/.ssh/id_rsa.pub ]];then
 ssh-keygen
 fi
 
-cat ~/.ssh/id_rsa.pub
+#cat ~/.ssh/id_rsa.pub
 
-git clone git@github.com:exenin/pub.git
+git clone https://github.com/exenin/pub.git
 
 
